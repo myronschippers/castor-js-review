@@ -142,3 +142,44 @@ console.log(typeof whatAmI);
 < - less than, 7 < 8 (true)
 <= - less than equal to, 8 <= 8 (true)
 */
+
+//
+// Loops
+// ------------------------------
+
+// WHILE LOOP
+// looping for a fixed condition
+
+// while (/* expression */) {
+//   // logic to perform while looping
+// }
+
+// FOR LOOP
+// iterating through a list (from point A to B)
+
+// for (let i = 0; i < 3; i++) {
+//   // perform logic HERE
+// }
+
+const people = ['Myron', 'Scott'];
+for (let person of people) {
+  // logic HERE
+  console.log('of:', person);
+}
+for (let index in people) {
+  // logic HERE
+  console.log('in:', index);
+  console.log('in:', people[index]);
+}
+
+//
+// FUNCTIONS
+// ------------------------------
+
+// want to double the value you pass me
+function doubleIt(originalNum) {
+  if (originalNum != null) {
+    return;
+  }
+  return originalNum * 2;
+}
