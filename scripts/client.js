@@ -177,9 +177,70 @@ for (let index in people) {
 // ------------------------------
 
 // want to double the value you pass me
+// function declaration
 function doubleIt(originalNum) {
-  if (originalNum != null) {
-    return;
-  }
   return originalNum * 2;
+  // doubleIt2(originalNum);
 }
+
+// function  expression
+const doubleIt2 = function (originalNum) {
+  return originalNum * 2;
+};
+
+console.log(doubleIt2(2));
+
+//
+// Built-IN FUNCTIONS
+// ------------------------------
+
+Number('8');
+// Object();
+// Array();
+parseFloat(); // decimal place
+parseInt();
+String();
+
+// STRING METHODS
+
+const puppy = 'Fiudo';
+
+// .charAt();
+console.log(puppy.charAt(1));
+// .length
+console.log(puppy.length);
+// .replace()
+console.log(puppy.replace('u', ''));
+// puppy.push('u');
+
+const checker = '';
+
+if (checker == null) {
+  console.log('Truthy');
+} else {
+  console.log('Falsy');
+}
+
+// ARRAY METHODS
+
+const testArray = [1, 2, 3];
+
+// .push('value') - add to end of array
+// .pop() - removing from the end
+// .shift('value') - adds to the beginning of array
+// .unshift() - removes the first item
+// .length
+
+// console.log(testArray.pop());
+console.log(testArray[testArray.length - 1]);
+
+const myPerson = {
+  name: 'Myron',
+  age: 37,
+};
+
+console.log(Object.keys(myPerson));
+
+const butterfly = 'magnificent';
+
+console.log(butterfly.split(''));

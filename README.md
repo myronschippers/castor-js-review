@@ -41,11 +41,11 @@ Additional resources: [data types](https://developer.mozilla.org/en-US/docs/Web/
 
 ## Variables
 
-`let x = 1`
+`let counter = 1`
 
 - `let` is a **keyword** that tells the computer we are defining a variable
 
-- `x` is the **name** of the variable
+- `counter` is the **name** of the variable
 
 - `=` is the **assignment operator**
 
@@ -67,13 +67,13 @@ Additional resources: [data types](https://developer.mozilla.org/en-US/docs/Web/
 "An expression is any valid set of literals, variables, operators, and expressions that evaluates to a single value." [[source](http://lib.ru/JAVA/javascr/expr.html)]
 
 ```JavaScript
-let x = 3; // expression
+let counter = 3; // expression
 
-x = x + 1; // expression
+counter = counter + 1; // expression
 
-x += 1; // expression using shorthand compound assignment operator
+counter += 1; // expression using shorthand compound assignment operator
 
-x++; // increments by 1
+counter++; // increments by 1
 ```
 
 ### String Considerations
